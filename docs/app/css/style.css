@@ -185,7 +185,11 @@ md-tabs.demo-source-tabs .md-header {
 
 
 md-tabs.demo-source-tabs md-tab-label {
-  color: #f3f3f3 !important;
+  color: #ccc !important;
+}
+
+md-tabs.demo-source-tabs .active md-tab-label {
+  color: #fff !important;
 }
 
 .demo-source-tabs.ng-hide {
